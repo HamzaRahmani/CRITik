@@ -3,6 +3,9 @@ Search up movie + tv show ratings and reviews
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To install express js -> https://expressjs.com/en/starter/generator.html
+### `npx express-generator`
+
 ## Available Scripts
 
 In the project directory, you can run:
