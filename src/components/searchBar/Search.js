@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import Suggestions from 'components/Suggestions'
+import Suggestions from './Suggestions'
+import "./Search.scss"
 
 const { API_KEY } = process.env
 const API_URL = ''
-
+// TO DO - 
+// Update getInfo() method and handleChnage()
+// Need to query dB first then API
+// Need to setup dB, decide on schema/template
+// Then create a secondary function to query dB first
+// if outdated or not existent, send get request to API
 class Search extends Component {
   state = {
     query: '',
