@@ -2,14 +2,12 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div >
         <p>
           Logo
         </p>
         <p> search bar</p>
         <p>side menu </p>
-      </header>
     </div>
   );
 }
