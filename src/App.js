@@ -1,17 +1,10 @@
 import React from 'react';
-import Search from './components/searchBar/Search'
-import "./App.scss"
+import Layout from './components/Layout/Layout'
 
 function App() {
   return (
-    <div >
-      <Search></Search>
-        <p>
-          Logo
-        </p>
-        <p> search bar</p>
-        <p>side menu </p>
-    </div>
+    <Layout>
+    </Layout>
   );
 }
 
